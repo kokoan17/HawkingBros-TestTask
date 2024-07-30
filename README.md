@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Тестовое задание в компанию Hawking Bros
+В рамках реализации тестового задания необходимо:
+1. Развернуть докер-образ в локальном окружении
+2. Реализовать header сайта, в котором должно быть не менее 5 статичных элементов навигации и не менее одного выпадающего списка. Одним из элементов навигации должна быть корзина интернет-магазина
+3. Реализовать интерфейс корзины интернет-магазина
+4. Получить данные о корзине покупателя, используя API сервиса
+5. Реализовать вывод данных корзины пользователя, используя полученные по API данные
+6. Отображение списка товаров должно быть реализовано в виде таблицы, где каждая строка представляет запись об одной единице товара и ее количестве в корзине, стоимости одной единицы товара. У каждого товара должно быть фото
+7. Должен быть реализован вывод общей стоимости корзины и статичная кнопка «оформить заказ»
+Интерфейс корзины должен предусматривать возможность:
+1. Изменения количества каждой единицы товара
+2. Удаления каждой единицы товара из корзины
+3. Очистки всей корзины
+Для реализации можно использовать любой UI-KIT/библиотеку, либо реализовать интерфейс без их использования.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Мое решение
+Архитектура приложения - FSD
+Стейт менеджер - Redux Toolkit
+Работа с запросами на сервер - Axios
+Стили - scss modules

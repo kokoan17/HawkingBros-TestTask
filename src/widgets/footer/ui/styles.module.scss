@@ -1,0 +1,16 @@
+.footer {
+  background: #303030;
+
+  &__wrapper {
+    max-width: 1200px;
+    height: 50px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  p {
+    color: #fff;
+  }
+}

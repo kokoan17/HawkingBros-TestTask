@@ -1,0 +1,15 @@
+.info {
+  position: relative;
+
+  &__static {
+    margin: 10px;
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 300px;
+    background-color: wheat;
+  }
+}

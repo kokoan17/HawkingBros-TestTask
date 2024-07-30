@@ -1,0 +1,13 @@
+.cartPage {
+  width: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    &__table {
+      width: 70%;
+    }
+  }
+}

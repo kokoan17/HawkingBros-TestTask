@@ -1,0 +1,9 @@
+.dropdown {
+  &_open {
+    display: block;
+  }
+
+  &_close {
+    display: none;
+  }
+}
